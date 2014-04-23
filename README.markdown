@@ -39,6 +39,12 @@ $ npm test
 
 Rinse and repeat until all tests turn green.
 
+Note that the koans will stop on the first failing test. If you want to run all tests regardless, run
+
+```
+$ BAIL=false npm test
+```
+
 ### Inspirations & thanks
 
 *  _Nigel Runnels-Moss (sleepyfox)_ - for the CoffeeScript koans
