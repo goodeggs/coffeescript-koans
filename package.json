@@ -4,12 +4,13 @@
   "description": "",
   "devDependencies": {
     "jasmine-node": "1.8.x",
+    "jasmine-bail-fast": "*",
     "coffee-script": "*"
   },
   "engine": {
     "node": ">=0.6"
   },
   "scripts": {
-    "test": "jasmine-node --coffee --matchall --match '^About.*' --noStack koans/AboutExpects.coffee koans/AboutArrays.coffee koans/AboutFunctions.coffee koans/AboutObjects.coffee koans/AboutMutability.coffee koans/AboutHigherOrderFunctions.coffee koans/AboutInheritance.coffee koans/AboutApplyingWhatWeHaveLearnt.coffee"
+    "test": "jasmine-node --coffee koans"
   }
 }
