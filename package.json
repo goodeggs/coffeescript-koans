@@ -10,6 +10,6 @@
     "node": ">=0.6"
   },
   "scripts": {
-    "test": "jasmine-node --coffee --matchall --match '^About.*' --noStack koans/AboutExpects koans/AboutArrays koans/AboutFunctions koans/AboutObjects koans/AboutMutability koans/AboutHigherOrderFunctions koans/AboutInheritance koans/AboutApplyingWhatWeHaveLearnt"
+    "test": "jasmine-node --coffee --matchall --match '^About.*' --noStack koans/AboutExpects.coffee koans/AboutArrays.coffee koans/AboutFunctions.coffee koans/AboutObjects.coffee koans/AboutMutability.coffee koans/AboutHigherOrderFunctions.coffee koans/AboutInheritance.coffee koans/AboutApplyingWhatWeHaveLearnt.coffee"
   }
 }
