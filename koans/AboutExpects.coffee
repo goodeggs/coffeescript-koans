@@ -1,7 +1,7 @@
 describe 'About Expects', ->
   # We shall contemplate truth by testing reality, via spec expectations.
   it 'should expect true', ->
-    expect(false).toBeTruthy() # This should be true
+    expect(false).toBeTruthy() # You should make this true
 
   # Sometimes we will ask you to fill in the values
   it 'should have filled in values', ->
@@ -9,7 +9,7 @@ describe 'About Expects', ->
 
   it 'should understand type coercion is fixed', ->
     # In Coffeescript, the == is the same as Javascript's === operator
-    expect(0 == "0").toBeFalsy() # which elimitates unwanted type coercion errors
+    expect(0 == "0").toEqual(FILL_ME_IN) # true or false?
     expect(1).toBeTruthy() # toBeTruthy is not the same as ===
 
   # To understand reality, we must compare our expectations against reality.
