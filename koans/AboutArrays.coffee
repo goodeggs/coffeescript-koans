@@ -1,15 +1,15 @@
 describe 'About Arrays', ->
-  it 'should create arrays', ->
   # We shall contemplate truth by testing reality, via spec expectations.
-    emptyArray = []
 
-    expect(typeof emptyArray).toBe(FILL_ME_IN) # A mistake? - http://j.mp/oRuo6R
+  it 'should create arrays', ->
+    emptyArray = []
     expect(emptyArray.length).toBe(FILL_ME_IN)
 
 
   it 'should understand array literals', ->
     array = []
-    expect(array).toEqual([])
+    expect(array).toEqual([]) # Remember toEqual uses common sense equality
+    expect(array == []).toBe(FILL_ME_IN)
 
     array[0] = 1
     expect(array).toEqual([1])
