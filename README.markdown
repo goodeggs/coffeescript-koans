@@ -46,7 +46,7 @@ $ BAIL=false npm test
 
 ### Inspirations & thanks
 
-*  _Nigel Runnels-Moss (sleepyfox)_ - for the CoffeeScript koans
+*  _Nigel Runnels-Moss (sleepyfox)_ - for the original CoffeeScript koans port from JavaScript
 *  _David Laing & Greg Malcolm_ - for their Javascript/Jasmine port of the Ruby koans
 *  _Edgecase_ - for the great Ruby Koans
 *  _Jeremy Ashkenas and the Coffeescript crew on GitHub_ - for making CoffeeScript
