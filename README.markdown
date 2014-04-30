@@ -1,8 +1,8 @@
 # CoffeeScript Koans - koans to learn CoffeeScript #
 
-This project is a port of the CoffeeScript Koans at https://github.com/sleepyfox/coffeescript-koans
-which I've modified to run with node rather than the somewhat complicated setup required in that project
-to run in a web browser.
+https://github.com/goodeggs/coffeescript-koans is a port of the CoffeeScript Koans 
+at https://github.com/sleepyfox/coffeescript-koans to run with node rather than the 
+somewhat complicated setup required in that project to run in a web browser.
 
 That project is based on Ben Hall's [Javascript Koans](https://github.com/BenHall/javascript-koans),
 which in turn are based upon Edgecase's [Ruby koans](http://github.com/edgecase/ruby_koans).
@@ -56,5 +56,5 @@ $ BAIL=false npm test
 
 ##### License
 
-This software is licensed under the MIT license (see LICENCE for details).  Enjoy!
+This software is licensed under the MIT license (see LICENSE for details).  Enjoy!
 
