@@ -1,7 +1,7 @@
 # CoffeeScript Koans - koans to learn CoffeeScript #
 
-https://github.com/goodeggs/coffeescript-koans is a port of the CoffeeScript Koans 
-at https://github.com/sleepyfox/coffeescript-koans to run with node rather than the 
+https://github.com/goodeggs/coffeescript-koans is a port of the CoffeeScript Koans
+at https://github.com/sleepyfox/coffeescript-koans to run with node rather than the
 somewhat complicated setup required in that project to run in a web browser.
 
 That project is based on Ben Hall's [Javascript Koans](https://github.com/BenHall/javascript-koans),
@@ -30,8 +30,7 @@ $ npm install
 $ npm test
 ```
 
-The first error will be in koans/AboutExpects.coffee, fix the first test and
-refresh the browser. You'll need to edit the file, and then run the tests again with
+The first error will be in koans/AboutExpects.coffee, fix the first test by editing the file, and then run the tests again with
 
 ```
 $ npm test
